@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Episodios · Rick and Morty</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1 class="encabezado__titulo">Episodios de Rick and Morty</h1>
+    <p class="encabezado__subtitulo">Busca por nombre y temporada</p>
+  </header>
+
+  <main class="contenido">
+    <form id="formulario-busqueda" class="buscador" novalidate>
+      <div class="buscador__campo">
+        <label for="campo-nombre">Nombre del episodio</label>
+        <input type="text" id="campo-nombre" name="nombre" placeholder="Ej.: pilot, rick, anatomy">
+      </div>
+
+      <div class="buscador__campo">
+        <label for="campo-temporada">Temporada</label>
+        <select id="campo-temporada" name="temporada">
+          <option value="">Todas</option>
+          <option value="S01">S01</option>
+          <option value="S02">S02</option>
+          <option value="S03">S03</option>
+          <option value="S04">S04</option>
+          <option value="S05">S05</option>
+        </select>
+      </div>
+
+      <button type="submit" id="boton-buscar" class="buscador__boton">Buscar</button>
+    </form>
+
+    <p id="mensaje" class="mensaje" role="status" aria-live="polite"></p>
+
+    <section id="resultados" class="resultados" aria-label="Resultados de la búsqueda"></section>
+  </main>
+
+  <footer class="pie">
+    <p>Osmar Ayala · Trabajo Práctico · Variante C (Episodios)</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
