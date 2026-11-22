@@ -8,7 +8,7 @@ Página web de una sola pantalla que permite buscar episodios de la serie *Rick 
 ## Sitios publicados
 
 - GitHub Pages: https://OsDav99.github.io/tp-ayala-osmar/
-- Vercel / Netlify: PEGAR-AQUI-LA-URL
+- Vercel / Netlify: https://tp-ayala-osmar.vercel.app/
 
 ## Captura
 
