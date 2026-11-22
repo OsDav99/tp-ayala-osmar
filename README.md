@@ -50,3 +50,5 @@ tp-ayala-osmar/
 ## Despliegue
 
 El sitio se publica desde la rama `main` (carpeta raíz) en GitHub Pages y también en Vercel/Netlify. Ambas plataformas están conectadas al repositorio: cada `git push` a `main` actualiza las dos URL automáticamente, sin subir archivos a mano.
+
+Proyecto académico de uso educativo.
